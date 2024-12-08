@@ -325,6 +325,7 @@ header {
   width: 90%;
   line-height: 1.5;
   margin: 15px 0;
+  text-align: justify !important;
 }
 .starta-button {
   background-color: var(--primary-color);
@@ -435,6 +436,8 @@ header {
   color: var(--text-color-2);
   line-height: 1.65;
   margin-bottom: 0;
+
+  text-align: justify !important;
 }
 .featureIcon {
   transition: 0.5s font-weight cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -656,6 +659,7 @@ header {
 }
 .starta-block .starta-desc {
   width: 80%;
+  text-align: justify;
 }
 .contact-line {
   position: absolute;
