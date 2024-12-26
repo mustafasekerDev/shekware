@@ -1086,7 +1086,7 @@ header {
 }
 .starta-about .starta-h1 {
   color: var(--heading-color);
-  margin: 10px 0 20px 0;
+  margin: 10px 0 90px 0;
 }
 .starta-semi {
   font-size: 20px;
@@ -1097,7 +1097,6 @@ header {
 .clients {
   border-radius: 70px;
   background-color: rgba(63, 50, 100, 0.773);
-  width: 670px;
   padding: 40px 50px;
   margin-top: 40px;
 }
