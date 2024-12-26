@@ -1099,7 +1099,7 @@ header {
 }
 .clients {
   border-radius: 70px;
-  background-color: var(--primary-color);
+  background-color: rgba(63, 50, 100, 0.773);
   width: 670px;
   padding: 40px 50px;
   margin-top: 40px;
