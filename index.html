@@ -719,31 +719,29 @@
         <div class="container py-5">
           <div class="row">
             <!-- block 1 -->
-            <div class="col-md-5 border-end">
+            <div class="col-md-6 border-end">
               <h1 class="starta-h1">Let's Connect.</h1>
               <p class="starta-desc">
-                Quisquam est, qui dolorem ipsum quia dolor sit amet, consecte
-                adipisci velit, sed quia non numquam eius modi tempora incidu
-                labore et dolore magnam voluptatem.
+                Join our vibrant community online! Follow us on Facebook, LinkedIn, Twitter, and Instagram to explore industry insights, success stories, and updates on cutting-edge technology. Let’s inspire each other and create meaningful connections.
               </p>
               <ul class="starta-social list-unstyled">
                 <li>
-                  <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                  <a href="#"><i class="fa-brands fa-linkedin"></i></a>
                 </li>
                 <li>
                   <a href="#"><i class="fa-brands fa-twitter"></i></a>
                 </li>
                 <li>
-                  <a href="#"><i class="fa-brands fa-google-plus"></i></a>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
                 </li>
                 <li>
                   <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
                 </li>
               </ul>
             </div>
-            <div class="col-md-4 lap-sm-50 tab-100 mt-sm-4">
+            <!-- <div class="col-md-4 lap-sm-50 tab-100 mt-sm-4">
               <div class="row mx-auto">
-                <!-- block 2 -->
+              
                 <div class="col-md-6 col-sm-6">
                   <h4 class="starta-h4 mb-4">Services</h4>
                   <ul class="footer-list list-unstyled">
@@ -764,7 +762,7 @@
                     </li>
                   </ul>
                 </div>
-                <!-- block 3 -->
+              
                 <div class="col-md-6 col-sm-6">
                   <h4 class="starta-h4 mb-4">Links</h4>
                   <ul class="footer-list list-unstyled">
@@ -786,24 +784,25 @@
                   </ul>
                 </div>
               </div>
-            </div>
+            </div> -->
 
             <!-- block 4 -->
-            <div class="col-md-3 lap-sm-100">
-              <h4 class="starta-h4 mb-4 lap-sm-none">Subscribe</h4>
-              <div class="newsLetter">
-                <input
-                  type="email"
-                  name="email"
-                  id="email"
-                  placeholder="Email Address"
-                />
-                <button class="starta-button submit">
-                  <span class="position-relative">Subscribe</span>
-                  <span class="starta-button-hover"></span>
-                </button>
-              </div>
-            </div>
+     <div class="col-md-6 lap-sm-100">
+  <h4 class="starta-h4 mb-4 lap-sm-none">Subscribe</h4>
+  <form action="https://sheetdb.io/api/v1/v76kdnzy9m10l" method="post"  id="sheetdb-form" class="newsLetter">
+    <input
+      type="email"
+      name="data[email]"
+      id="email"
+      placeholder="Email Address"
+      required
+    />
+    <button type="submit" class="starta-button submit">
+      <span class="position-relative">Subscribe</span>
+      <span class="starta-button-hover"></span>
+    </button>
+  </form>
+</div>
           </div>
         </div>
 
@@ -829,5 +828,20 @@
 
     <!-- Theme Files -->
     <script src="assets/js/custom/custom.js"></script>
+
+    <script>
+  var form = document.getElementById('sheetdb-form');
+  form.addEventListener("submit", e => {
+    e.preventDefault();
+    fetch(form.action, {
+        method : "POST",
+        body: new FormData(document.getElementById("sheetdb-form")),
+    }).then(
+        response => response.json()
+    ).then((html) => {
+
+    });
+  });
+</script>
   </body>
 </html>

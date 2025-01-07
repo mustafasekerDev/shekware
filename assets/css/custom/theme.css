@@ -3,7 +3,7 @@
 body {
   width: 100%;
   height: 100%;
-  font-family: "Epilogue";
+  font-family: "Anonymous Pro", monospace;
 }
 
 /* scrollbar */
@@ -29,7 +29,8 @@ body {
   place-content: center;
 }
 .loader span {
-  font-family: "Urbanist";
+  font-family: "Anonymous Pro", monospace;
+
   font-size: 100px;
   text-transform: uppercase;
   color: var(--heading-color);
@@ -159,7 +160,8 @@ header {
   margin-bottom: 0;
 }
 .starta-menu li a {
-  font-family: "Urbanist";
+  font-family: "Anonymous Pro", monospace;
+
   color: var(--heading-color);
   font-weight: 500;
   text-decoration: none;
@@ -225,7 +227,7 @@ header {
 }
 .starta-helpline article {
   color: var(--heading-color);
-  font-family: "Urbanist";
+  font-family: "Anonymous Pro", monospace;
 }
 .starta-helpline article * {
   margin-bottom: 0;
@@ -312,6 +314,7 @@ header {
   transform: rotate(45deg) translateY(0);
 }
 .heroHeading {
+  font-family: "Anonymous Pro", monospace;
   font-size: 65px;
   color: var(--heading-color);
   font-weight: 900;
@@ -319,7 +322,8 @@ header {
 }
 .heroDesc {
   font-size: 18px;
-  font-family: "Urbanist";
+  font-family: "Anonymous Pro", monospace;
+
   color: var(--text-color);
   font-weight: normal;
   width: 90%;
@@ -432,7 +436,8 @@ header {
 }
 .starta-desc {
   font-size: 18px;
-  font-family: "Urbanist";
+  font-family: "Anonymous Pro", monospace;
+
   color: var(--text-color-2);
   line-height: 1.65;
   margin-bottom: 0;
@@ -610,7 +615,8 @@ header {
 }
 .slide {
   font-size: 50px;
-  font-family: "Urbanist";
+  font-family: "Anonymous Pro", monospace;
+
   font-weight: 800;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: var(--heading-color);
@@ -1207,7 +1213,8 @@ header {
 }
 .accordion-header button::after {
   content: "\f105";
-  font-family: "Font Awesome 6 Free";
+  font-family: "Anonymous Pro", monospace;
+
   font-weight: 900;
   font-size: inherit;
   color: inherit;
@@ -1429,7 +1436,8 @@ button.collapsed::after {
   width: 100%;
   text-align: center;
   font-size: 16px;
-  font-family: "Urbanist";
+  font-family: "Anonymous Pro", monospace;
+
   color: rgb(182, 189, 185);
   font-weight: bold;
 }
